@@ -62,3 +62,13 @@ header {
 .img-banner {
     background: url(../img/banner.jpg) right/cover;
 }
+
+/* Section-1 */
+.section-1 {
+    display: grid;
+    grid-template-columns: 37% 63%;
+    min-height: 400px;
+}
+.section-1 .img{
+    background: url(../img/img-left.jpg) center/cover;
+}
