@@ -46,3 +46,19 @@ p{
 body{
     font-family: "Source sans pro" , sans-serif;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+}
+/* HEADER */
+header {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.img-banner {
+    background: url(../img/banner.jpg) right/cover;
+}
